@@ -1,0 +1,18 @@
+{
+  "paths": ["/", "/var"],
+  "threshold_percent": 85,
+  "smtp": {
+    "host": "smtp.gmail.com",
+    "port": 587,
+    "use_tls": true,
+    "username": "seu.email@gmail.com",
+    "password": "SUA_SENHA_OU_APP_PASSWORD"
+  },
+  "mail": {
+    "from": "monitor@seuservidor.com",
+    "to": ["admin@empresa.com"],
+    "subject_prefix": "[ALERTA DISCO]"
+  },
+  "hostname": null,
+  "dry_run": false
+}
